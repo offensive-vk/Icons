@@ -1,11 +1,20 @@
-# Icons by Me 
+# Icons and SVGs for Developer and Other Curious People.
 Best SVG and Images for For Most Developer Icons.
+<p>
+We should always use CDNs (Content Delivery Networks) which helps us to increase speed and reliability for our assets stored in data centers and cloud.
+A stable CDN that can be used in production on popular websites with huge amounts of traffic. There are no bandwidth limits or premium features and its completely free to use by anybody.
+</p>
 
 <div align="center">
   <a href="#" target="_self" rel="noreferrer"> 
     <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/private/hero.png" alt="logo" width="600" height="350"/> 
   </a>
 </div>
+
+## URL Pattern for Shortcut :
+```html
+<img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/{sub-folder}/{file-name.xyz}" />
+```
 
 ## To Get Started With Our Icons (use them)
 > ### 1. Navigate to your favourite icons or SVG. (selection)<br>
@@ -34,3 +43,4 @@ Best SVG and Images for For Most Developer Icons.
 $ mkdir Icons && cd Icons
 $ git clone https://github.com/offensive-vk/Icons.git
 ```
+Thankyou.
