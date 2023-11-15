@@ -1,5 +1,7 @@
 # Icons and SVGs for Developer and Other Curious People.
-Best SVG and Images for For Most Developer Icons.
+Best SVG and Images for For Most Developer Usage Icons.
+
+> For Manual : https://www.jsdelivr.com/package/gh/offensive-vk/Icons
 <p>
 We should always use CDNs (Content Delivery Networks) which helps us to increase speed and reliability for our assets stored in data centers and cloud.
 A stable CDN that can be used in production on popular websites with huge amounts of traffic. There are no bandwidth limits or premium features and its completely free to use by anybody.
