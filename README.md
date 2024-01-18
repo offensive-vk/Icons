@@ -1,7 +1,7 @@
 # Icons and SVGs for Developer and Other Curious People.
-Best SVG and Images for For Most Developer Usage Icons.
+Best SVG and Images for For Most Developement Usage Icons.
 
-> For Manual : https://www.jsdelivr.com/package/gh/offensive-vk/Icons
+- For Manual : https://www.jsdelivr.com/package/gh/offensive-vk/Icons
 <p>
 We should always use CDNs (Content Delivery Networks) which helps us to increase speed and reliability for our assets stored in data centers and cloud.
 A stable CDN that can be used in production on popular websites with huge amounts of traffic. There are no bandwidth limits or premium features and its completely free to use by anybody.
@@ -40,9 +40,11 @@ A stable CDN that can be used in production on popular websites with huge amount
 > ### 7. Use that link wherever you want. <br>
 > <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/private/final.png" width="1080" height="300"/> <br>
 
-## Or If You'd Like To Clone This Whole Repository. (Offline and slow.)
+## Maybe If You'd Like To Clone This Whole Repository. (i.e. Time consuming.)
 ```bash
 $ mkdir Icons && cd Icons
 $ git clone https://github.com/offensive-vk/Icons.git
 ```
-Thankyou.
+
+- Brought to you by [offensive-vk](https://github.com/offensive-vk/)
+- Thankyou.
