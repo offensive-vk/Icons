@@ -1,1 +1,3 @@
-# ~ Please Maintain Nominal Local Privacy and Security Policies.
+# Please Maintain Major Privacy and Security Policies.
+## All Credit Goes to Respected Author(s). 
+Brought To You By - [offensive](https://github.com/offensive-vk/)
