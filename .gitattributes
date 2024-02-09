@@ -1,1 +1,2 @@
- *.* linguist-language=MDX
+*.* linguist-language=MDX
+*.md linguist-documentation=false

@@ -9,7 +9,7 @@ For Any Information About Contribution and Documentation of This Repo. <br>
 - [Security Guidelines ⚠️](https://github.com/offensive-vk/Icons/blob/master/.github/SECURITY.md) <br>
 - [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
 
-* For Manual : https://www.jsdelivr.com/package/gh/offensive-vk/Icons
+* For Manual : [Click here](https://www.jsdelivr.com/package/gh/offensive-vk/Icons)
 <p>
 We should always use CDNs (Content Delivery Networks) which helps us to increase speed and reliability for our assets stored in data centers and cloud.
 A stable CDN that can be used in production on popular websites with huge amounts of traffic. There are no bandwidth limits or premium features and its completely free to use by anybody.
@@ -54,5 +54,5 @@ $ mkdir Icons && cd Icons
 $ git clone https://github.com/offensive-vk/Icons.git
 ```
 
-- Brought to you by [@offensive-vk](https://github.com/offensive-vk/)
+- Brought to you by [offensive-vk](https://github.com/offensive-vk/)
 - Thankyou.
