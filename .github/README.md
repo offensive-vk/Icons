@@ -1,13 +1,16 @@
 ## Icons and SVGs for Developers and Other Curious People.
+
 Best SVG and Images for For Most Development Usage Icons.
 
 ## Quick Links and Navigation:
-For Any Information About Contribution and Documentation of This Repo. <br>
+
+For Any Information About Contribution and Documentation of This Repository.
+
 ### Please Refer to: 
-- [Documentation 📖](https://github.com/offensive-vk/Icons/blob/master/README.md) <br>
-- [Contribution Guidelines ✨](https://github.com/offensive-vk/Icons/blob/master/.github/CONTRIBUTING.md) <br>
-- [Security Guidelines ⚠️](https://github.com/offensive-vk/Icons/blob/master/.github/SECURITY.md) <br>
-- [Author 🧑‍💻](https://github.com/offensive-vk/) <br>
+- [Documentation 📖](https://github.com/offensive-vk/Icons/blob/master/.github/README.md)
+- [Contribution Guidelines ✨](https://github.com/offensive-vk/Icons/blob/master/.github/CONTRIBUTING.md)
+- [Security Guidelines ⚠️](https://github.com/offensive-vk/Icons/blob/master/.github/SECURITY.md)
+- [Author 🧑‍💻](https://github.com/offensive-vk/)
 
 We should always use CDNs (Content Delivery Networks) which helps us to increase speed and reliability for our assets stored in data centers and cloud.
 A stable CDN that can be used in production on popular websites with huge amounts of traffic. There are no bandwidth limits or premium features and its completely free to use by anybody.
@@ -19,11 +22,13 @@ A stable CDN that can be used in production on popular websites with huge amount
 </div>
 
 ## URL Pattern for Shortcut :
+
 ```html
 <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/{sub-folder}/{file-name.xyz}" />
 ```
 
 ## To Get Started With Our Icons (use them)
+
 > ### 1. Navigate to your favourite icons or SVG. (selection)<br>
 > <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/private/first.png" width="1080" height="500"/> <br>
 
@@ -46,6 +51,7 @@ A stable CDN that can be used in production on popular websites with huge amount
 > <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/private/final.png" width="1080" height="300"/> <br>
 
 ***
+
 ### Maybe If You'd Like To Clone This Whole Repository. (i.e. Time consuming.)
 ```bash
 $ git clone https://github.com/offensive-vk/Icons.git
