@@ -1,2 +1,3 @@
-*.* linguist-language=MDX
+*.* linguist-language=SVG
 *.md linguist-documentation=false
+*.md linguist-detactable=true
