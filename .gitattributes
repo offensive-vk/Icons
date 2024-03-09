@@ -1,3 +1,4 @@
-*.* linguist-language=SVG
+*.svg linguist-language=SCSS
 *.md linguist-documentation=false
 *.md linguist-detactable=true
+*.eps linguist-language=Markdown
