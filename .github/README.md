@@ -1,6 +1,8 @@
 ## Icons and SVGs for Developers and Other Curious People.
 
-Best SVG and Images for For Most Development Usage Icons.
+Free SVGs and Icons For Most Programming Languags / Frameworks / Tools/ Tech Related. 
+
+Each icon comes in several versions: EPS/SVG, original/plain/line, colored/not colored, wordmark/no wordmark. Feel free to use
 
 ## Quick Links and Navigation:
 
