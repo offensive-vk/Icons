@@ -1,4 +1,5 @@
-## Reporting Security Issues. ⚠️
+# Reporting Security Issues. ⚠️
+
 If you believe you have found a security vulnerability, I / we encourage you to let us know right away.
 
 If there's an issue or error in using the Icons from our Repository.

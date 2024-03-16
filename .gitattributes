@@ -1,5 +1,7 @@
+# ==============================
 *.svg linguist-language=SCSS
 *.md linguist-documentation=false
 *.md linguist-detactable=true
 *.md linguist-language=Markdown
 *.eps linguist-language=Markdown
+# ==============================
