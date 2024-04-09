@@ -4,10 +4,10 @@ Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech R
 
 Each icon comes in several versions
 
-- original & plain & line
-- EPS & SVG
-- colored and not colored
-- wordmark and wordmark
+- Original or Plain
+- EPS & SVG Format
+- Colored and not Colored
+- Wordmark and No Wordmark
 - Feel free to use.
 
 ## Quick Links and Navigation
@@ -33,12 +33,11 @@ A stable CDN that can be used in production on popular websites with huge amount
     /> 
 </div>
 
-### To Use any Icon (*easily*) 
+## To Use any Icon (*easily*) 
 
 - Just open that Icon in your browser and Copy the Web Address to that file.
 - Go to <https://www.jsdelivr.com/github> and paste that link.
 - Use the CDN link everywhere.
-
 
 ## URL Pattern for Shortcut
 
@@ -76,8 +75,7 @@ A stable CDN that can be used in production on popular websites with huge amount
 
 <p align="center">
   <i>&copy; <a href="https://github.com/offensive-vk/">Vedansh </a> 2023 - Present</i><br>
-  <i>Licensed under <a href="https://mit-license.org/">MIT</a></i><br>
+  <i>Licensed under <a href="https://github.com/npm-run-test/Icons#CC0-1.0-1-ov-file">CC0-1.0</a></i><br>
   <a href="https://github.com/npm-run-test"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <kbd>Thanks for visiting :)</kbd>
 </p>
-
