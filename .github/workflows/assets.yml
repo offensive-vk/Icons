@@ -5,19 +5,18 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "*" ]
-  workflow_dispatch:
 
 jobs:
-  build:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
       - name: Verify Assets
-        run: echo Assets Verified | base64
+        run: echo Assets Verified.
 
-      - name: End the Job
+      - name: Complete the Job
         run: |
-          sudo apt install neofetch figlet
+          apt install neofetch figlet -y
           figlet Welcome to CLI.
           neofetch
