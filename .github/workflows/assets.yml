@@ -17,6 +17,7 @@ jobs:
 
       - name: Complete the Job
         run: |
+          sudo su
           apt install neofetch figlet -y
           figlet Welcome to CLI.
           neofetch
