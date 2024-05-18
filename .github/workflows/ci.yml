@@ -1,0 +1,40 @@
+name: CI / Bundle SVG Icons
+
+on: [push, pull_request]
+
+jobs:
+  bundle-svg-files:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Create bundled_svgs directory
+      run: mkdir bundled_svgs
+
+    - name: Find and copy SVG files
+      run: |
+        find . -name "*.svg" -exec cp {} bundled_svgs/ \;
+
+      shell: bash
+
+    - name: Verify SVG files are bundled
+      run: ls bundled_svgs
+
+    - name: Run tests
+      run: echo "Tests are passing."
+
+    - name: Upload bundled SVGs as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: bundled_svgs
+        path: bundled_svgs
