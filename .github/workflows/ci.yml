@@ -1,6 +1,6 @@
-name: CI / Bundle SVG Icons
+name: CI / Bundle Icons
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   bundle-svg-files:
@@ -18,23 +18,23 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Create bundled_svgs directory
-      run: mkdir bundled_svgs
+    - name: Create Directory
+      run: mkdir bundled_icons
 
     - name: Find and copy SVG files
       run: |
-        find . -name "*.svg" -exec cp {} bundled_svgs/ \;
+        find . -name "*.svg" -exec cp {} bundle_icons/ \;
 
       shell: bash
 
-    - name: Verify SVG files are bundled
-      run: ls bundled_svgs
+    - name: Verify SVG files
+      run: ls bundled_icons
 
-    - name: Run tests
+    - name: Run Tests
       run: echo "Tests are passing."
 
     - name: Upload bundled SVGs as artifact
       uses: actions/upload-artifact@v3
       with:
-        name: bundled_svgs
-        path: bundled_svgs
+        name: bundled_icons
+        path: bundled_icons
