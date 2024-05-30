@@ -1,6 +1,6 @@
 name: CI / Bundle Icons
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   bundle-svg-files:
