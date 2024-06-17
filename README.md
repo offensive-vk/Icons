@@ -1,14 +1,91 @@
+<div align="center">
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/archlinux/archlinux-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/babel/babel-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/canva/canva-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/dot-net/dot-net-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/firefox/firefox-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/vscode/vscode-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+</div>
+<br>
+<div align="center">
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/jquery/jquery-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/linkedin/linkedin-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/mongodb/mongodb-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/neovim/neovim-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/playwright/playwright-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/sass/sass-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
+</div>
+
 # Icons & SVGs for Developers and Other Curious People
 
-Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech Related.
+Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech Related. All SVGs are in High Quality and are suitable for Every Size.
 
-Each icon comes in several versions
+*Each icon comes in several versions like*
 
 - Original or Plain
 - EPS & SVG Format
 - Colored and not Colored
 - Wordmark and No Wordmark
-- Feel free to use.
 
 ## Quick Links and Navigation
 
