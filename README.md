@@ -29,6 +29,12 @@
       width="100" 
       height="100"
     /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/vscode/vscode-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
 </div>
 <br>
 <div align="center">
@@ -62,19 +68,24 @@
       width="100" 
       height="100"
     /> 
+    <img 
+      src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/sass/sass-original.svg" 
+      alt="logo" 
+      width="100" 
+      height="100"
+    /> 
 </div>
 
 # Icons & SVGs for Developers and Other Curious People
 
-Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech Related.
+Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech Related. All SVGs are in High Quality and are suitable for Every Size.
 
-Each icon comes in several versions
+*Each icon comes in several versions like*
 
 - Original or Plain
 - EPS & SVG Format
 - Colored and not Colored
 - Wordmark and No Wordmark
-- Feel free to use.
 
 ## Quick Links and Navigation
 
