@@ -23,6 +23,7 @@ jobs:
 
     - name: Find and copy SVG files
       run: |
+        ls -al
         find . -name "*.svg" -exec cp {} bundle_icons/ \;
 
       shell: bash
