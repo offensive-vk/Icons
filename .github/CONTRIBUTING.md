@@ -7,8 +7,7 @@ When contributing to this repository, please follow these rules: (For Expert Con
 - Code review is required on every push / pr, minimum 1 reviewer should be assigned.
 - Thank you & Happy Coding.
 
-> This Project is Licensed Under
-> Creative Commons Legal Code
+> This Project is Licensed Under Creative Commons Legal Code
 
     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
     LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
