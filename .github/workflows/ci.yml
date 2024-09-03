@@ -42,4 +42,4 @@ jobs:
         path: bundled_icons
 
     - name: Cleanup
-      run: apt update; apt upgrade -y; apt autoremove; apt clean; echo "Job Finished" | base64
+      run: echo "Job Finished" | base64
