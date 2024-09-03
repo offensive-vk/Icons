@@ -1,21 +1,25 @@
 name: CI / Bundle Icons
 
-on: [push]
-
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+     branches: "master"
+  workflow_dispatch:
+    
 jobs:
   bundle-svg-files:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
-        node: [18.x, 20.x, 22.x]
-
+        node: [18.x, 19.x, 20.x, 21.x, 22.x]
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - name: Checkout Icons
+      uses: actions/checkout@v4
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node }}
 
@@ -36,3 +40,6 @@ jobs:
       with:
         name: bundled_icons
         path: bundled_icons
+
+    - name: Cleanup
+      run: apt update; apt upgrade -y; apt autoremove; apt clean; echo "Job Finished" | base64
