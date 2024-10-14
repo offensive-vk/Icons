@@ -1,4 +1,4 @@
-name: CI / Release Versions
+name: CI / Release Version
 
 on:
   schedule:
@@ -29,7 +29,8 @@ jobs:
 
       - name: Create Release Notes
         id: release_notes
-        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh api \
             -X POST /repos/${{ github.repository }}/releases/generate-notes \
