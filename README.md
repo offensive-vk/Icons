@@ -93,6 +93,7 @@ For Any Information About Contribution and Documentation of This Repository.
 
 ### Please Refer to
 
+- [CDN](https://www.jsdelivr.com/package/gh/offensive-vk/Icons)
 - [Documentation 📖](https://github.com/offensive-vk/Icons/blob/master/README.md) *(Current File)*
 - [Contribution Guidelines ✨](https://github.com/offensive-vk/Icons/blob/master/.github/CONTRIBUTING.md)
 - [Security Guidelines ⚠️](https://github.com/offensive-vk/Icons/blob/master/.github/SECURITY.md)
@@ -112,7 +113,7 @@ A stable CDN that can be used in production on popular websites with huge amount
 
 ## To Use any Icon (*easily*) 
 
-- Just open that Icon in your browser and Copy the Web Address to that file.
+- Just simply open that Icon in your browser and Copy the Web Address to that file.
 - Go to <https://www.jsdelivr.com/github> and paste that link.
 - Use the CDN link everywhere.
 

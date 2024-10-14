@@ -1,0 +1,46 @@
+name: CI / Release Versions
+
+on:
+  schedule:
+    - cron: "0 0 28-31 * *"  
+  workflow_dispatch:
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    name: Create Release
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get current month and year
+        id: date
+        run: |
+          echo "month=$(date +'%B')" >> $GITHUB_ENV
+          echo "year=$(date +'%Y')" >> $GITHUB_ENV
+
+      - name: Generate release tag and title
+        id: release_info
+        run: |
+          TAG=$(date +'%Y-%m')
+          TITLE="${month}-${year}"
+          echo "tag=${TAG}" >> $GITHUB_ENV
+          echo "title=${TITLE}" >> $GITHUB_ENV
+
+      - name: Create Release Notes
+        id: release_notes
+        continue-on-error: true
+        run: |
+          gh api \
+            -X POST /repos/${{ github.repository }}/releases/generate-notes \
+            -f tag_name="${{ env.tag }}" > release_notes.json
+          jq -r .body release_notes.json > release_notes.txt
+
+      - name: Publish Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ env.tag }}" \
+            --title "${{ env.title }}" \
+            --notes-file release_notes.txt \
+            --target $(git rev-parse HEAD)
