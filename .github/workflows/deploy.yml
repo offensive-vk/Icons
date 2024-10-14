@@ -98,14 +98,6 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/amd64/v2,linux/amd64/v3
-    
-      - name: Inspect Image
-        if: github.event_name != 'pull_request'
-        run: |
-          docker pull ${{ env.DOCKERHUB }}:${{ steps.meta.outputs.version }}
-          docker image inspect ${{ env.DOCKERHUB }}:${{ steps.meta.outputs.version }}
-          docker pull ${{ env.GHCR }}:${{ steps.meta.outputs.version }}
-          docker image inspect ${{ env.GHCR }}:${{ steps.meta.outputs.version }}
           
       - name: Sign the Published image
         if: ${{ github.event_name != 'pull_request' }}
