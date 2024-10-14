@@ -29,6 +29,7 @@ jobs:
 
       - name: Create Release Notes
         id: release_notes
+        continue-on-error: true
         run: |
           gh api \
             -X POST /repos/${{ github.repository }}/releases/generate-notes \
