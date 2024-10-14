@@ -1,0 +1,19 @@
+name: CI / Docker
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  push:
+    branches: ['master', '**']
+  pull_request:
+    branches: ['master', '**']
+  workflow_dispatch:
+
+jobs:
+  build_image:
+    runs-on: ubuntu-latest
+    name: Build Image
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the Docker Image
+        run: docker build . --file Dockerfile -t awesomeicons:$(date +%d-%m-%y)
