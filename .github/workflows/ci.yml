@@ -3,7 +3,7 @@ name: CI / Bundle Icons
 on: 
   push:
     tags: ['**']
-    branches: ["master"]
+    branches: ['**']
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        node: [18.x, 20.x, 22.x]  # Only LTS versions
+        node: [18.x, 20.x, 22.x]
 
     steps:
     - name: Checkout Icons
@@ -35,10 +35,10 @@ jobs:
       run: |
         cd bundled_icons
         md5 *.svg > checksum.md5
-        cat checksum.md5  # Print checksum for debugging
+        cat checksum.md5
 
     - name: Upload Bundled SVGs as Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: bundled_icons
         path: bundled_icons
