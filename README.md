@@ -80,7 +80,7 @@
 
 Free SVGs and Icons For Most Programming Languages / Frameworks / Tools / Tech Related. All SVGs are in High Quality and are suitable for Every Size.
 
-*Each icon comes in several versions like*
+*Each icon comes in several versions like -*
 
 - Original or Plain
 - EPS & SVG Format

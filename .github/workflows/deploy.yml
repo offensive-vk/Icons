@@ -57,6 +57,7 @@ jobs:
             org.opencontainers.image.title=Icons
             org.opencontainers.image.vendor=Vedansh
             org.opencontainers.image.multi-platform=true
+            org.opencontainers.image.description=Free SVG Icons for Every Tech Framework and Programming Languages.
             org.opencontainers.image.source=https://github.com/offensive-vk/Icons
 
       - name: Install Cosign
