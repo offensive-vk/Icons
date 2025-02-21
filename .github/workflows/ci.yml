@@ -36,9 +36,3 @@ jobs:
         cd bundled_icons
         md5 *.svg > checksum.md5
         cat checksum.md5
-
-    - name: Upload Bundled SVGs as Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: bundled_icons
-        path: bundled_icons
