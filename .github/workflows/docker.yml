@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build the Docker Image
-        run: docker build . --file Dockerfile -t awesomeicons:$(date +%d-%m-%y)
+        run: docker build . --file Dockerfile -t svghub:$(date +%d-%m-%y)

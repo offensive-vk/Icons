@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        node: [18.x, 20.x, 22.x]
+        node: [18.x, 20.x, 22.x, 24.x]
 
     steps:
     - name: Checkout Icons
